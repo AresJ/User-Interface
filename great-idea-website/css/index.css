@@ -28,8 +28,29 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
+	
+}
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+.container header nav{
+
+}
+.container header nav a{
+	font-size: 75%;
+	padding: 10px;
+	margin: 0 10px;
+	display: inline-block;
+	color: gray;
+	text-decoration: none;
+}
+.container header nav img {
+	display: none;
+
 }
 ol, ul {
 	list-style: none;
