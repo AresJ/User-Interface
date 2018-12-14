@@ -49,7 +49,7 @@ body {
 	text-decoration: none;
 }
 .container header nav img {
-	display: none;
+	display: list-item;
 
 }
 ol, ul {
