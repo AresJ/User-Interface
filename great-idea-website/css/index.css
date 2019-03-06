@@ -62,3 +62,101 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* Your code starts here! *//
+html, body{
+	position: relative;
+}
+.container{
+	width: 860px;
+	margin: 0 auto;
+}
+.container header nav {
+	padding: 20px 10px;
+	margin: 0 20px;
+}
+.container header nav div{
+	display: inline-block;
+}
+.container header nav a{
+	font-size: 75%;
+	padding: 20px 7px;
+	margin: 15px;
+	display: inline-block;
+	color: gray;
+	text-decoration: none;
+	height: 30px;
+}
+.mid-container{
+	display: table;
+	padding: 10px;
+	padding-bottom: 60px;
+	margin: 15px auto;
+	border-collapse: separate;
+	border-spacing: 10px;
+	border-bottom: 1px solid black;
+}
+.lofi{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle
+	
+}
+.column1, .column2 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.column1 h2{
+	text-align: center;
+	display: table-cell;
+	font-size: 64px;
+	vertical-align: middle;
+	
+}
+.column2 img{
+	display: table-cell;
+	text-align: right;
+	vertical-align: top;
+	align: top;
+}
+.column1 h6{
+	background-color: none;
+	border: 1px solid grey;
+	color: grey;
+	padding: 8px 45px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+.first-text{
+	column-count: 2;
+}
+.upper-column{
+	padding: 40px 25px;
+}
+.middle-img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.second-text{
+	column-count: 3;
+	border-bottom: 1px solid black;
+}
+.bottom-column{
+	padding: 40px 25px;
+}
+address{
+	text-align: left;
+	margin-top: 40px;
+}
+footer{
+	padding: 30px;
+	text-align: center;
+}
+.ideas {
+	
+	margin: 0 auto;
+	width: 142px;
+}
+
